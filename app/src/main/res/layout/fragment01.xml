@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.stx.xhb.xbanner.XBanner
+        android:id="@+id/xbanner"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </com.stx.xhb.xbanner.XBanner>
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/rcl"
+        android:layout_below="@+id/xbanner"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp">
+
+    </com.jcodecraeer.xrecyclerview.XRecyclerView>
+    <com.stx.xhb.xbanner.XBanner
+        android:layout_below="@+id/rcl"
+        android:id="@+id/xbanner2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="300dp">
+
+    </com.stx.xhb.xbanner.XBanner>
+</RelativeLayout>
